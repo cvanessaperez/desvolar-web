@@ -3,5 +3,8 @@
     {
       "url": "https://github.com/camilosampedro/create-react-app-buildpack.git"
     }
-  ]
+  ],
+  "scripts": {
+    "heroku-postbuild": "npm run build"
+  }
 }
